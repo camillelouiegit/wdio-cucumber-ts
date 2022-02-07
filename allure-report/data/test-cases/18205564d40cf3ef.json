@@ -1,12 +1,12 @@
 {
-  "uid" : "4b0700ac20e5d0b7",
-  "name" : "Navigate to Shirt Sections",
-  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Navigate to Shirt Sections",
-  "historyId" : "b1045f33183dde68abdd360e1b493e8",
+  "uid" : "18205564d40cf3ef",
+  "name" : "Select and Add to Cart Ladies outerwears",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Select and Add to Cart Ladies outerwears",
+  "historyId" : "82e132e6a2da9fc1263d2e3109a46d83",
   "time" : {
-    "start" : 1644240909543,
-    "stop" : 1644240914871,
-    "duration" : 5328
+    "start" : 1644244258043,
+    "stop" : 1644244264286,
+    "duration" : 6243
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,17 +15,17 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given I am on the home page \"https://shop.polymer-project.org/\"",
+      "name" : "When I select a random shirt",
       "time" : {
-        "start" : 1644240909545,
-        "stop" : 1644240909550,
-        "duration" : 5
+        "start" : 1644244258044,
+        "stop" : 1644244263818,
+        "duration" : 5774
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,11 +36,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I navigate to Men's Outerwear section",
+      "name" : "Then I should view the details of the shirt",
       "time" : {
-        "start" : 1644240909550,
-        "stop" : 1644240914816,
-        "duration" : 5266
+        "start" : 1644244263819,
+        "stop" : 1644244263933,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,11 +51,41 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view all shirt List",
+      "name" : "When I click Add To Cart",
       "time" : {
-        "start" : 1644240914816,
-        "stop" : 1644240914870,
-        "duration" : 54
+        "start" : 1644244263934,
+        "stop" : 1644244264030,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click View Cart",
+      "time" : {
+        "start" : 1644244264031,
+        "stop" : 1644244264178,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view the added Tshirt",
+      "time" : {
+        "start" : 1644244264178,
+        "stop" : 1644244264284,
+        "duration" : 106
       },
       "status" : "passed",
       "steps" : [ ],
@@ -68,7 +98,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -91,7 +121,7 @@
     "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "testMethod",
-    "value" : "Navigate to Shirt Sections"
+    "value" : "Select and Add to Cart Ladies outerwears"
   }, {
     "name" : "package",
     "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
@@ -108,10 +138,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "3fce3c79227979e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644243309642,
+        "stop" : 1644243316912,
+        "duration" : 7270
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4b0700ac20e5d0b7.json",
+  "source" : "18205564d40cf3ef.json",
   "parameterValues" : [ "chrome-98.0.4758.80" ]
 }

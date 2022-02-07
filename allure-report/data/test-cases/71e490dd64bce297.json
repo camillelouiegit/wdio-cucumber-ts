@@ -1,12 +1,12 @@
 {
-  "uid" : "101fd71b55866522",
+  "uid" : "71e490dd64bce297",
   "name" : "Checkout and Place Order",
   "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Checkout and Place Order",
   "historyId" : "ed65461b3d5769b2ebdf89fd9e3efd02",
   "time" : {
-    "start" : 1644240922035,
-    "stop" : 1644240925645,
-    "duration" : 3610
+    "start" : 1644243316913,
+    "stop" : 1644243320589,
+    "duration" : 3676
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,9 +23,9 @@
     "steps" : [ {
       "name" : "When I click Checkout button in the Cart",
       "time" : {
-        "start" : 1644240922036,
-        "stop" : 1644240922155,
-        "duration" : 119
+        "start" : 1644243316914,
+        "stop" : 1644243317032,
+        "duration" : 118
       },
       "status" : "passed",
       "steps" : [ ],
@@ -38,9 +38,9 @@
     }, {
       "name" : "Then I should view the Checkout form",
       "time" : {
-        "start" : 1644240922155,
-        "stop" : 1644240922301,
-        "duration" : 146
+        "start" : 1644243317032,
+        "stop" : 1644243317183,
+        "duration" : 151
       },
       "status" : "passed",
       "steps" : [ ],
@@ -53,9 +53,9 @@
     }, {
       "name" : "When I enter all required fields in the Checkout form and click Place Order",
       "time" : {
-        "start" : 1644240922301,
-        "stop" : 1644240924425,
-        "duration" : 2124
+        "start" : 1644243317183,
+        "stop" : 1644243319388,
+        "duration" : 2205
       },
       "status" : "passed",
       "steps" : [ ],
@@ -68,9 +68,9 @@
     }, {
       "name" : "Then I should view \"Thank you\" message",
       "time" : {
-        "start" : 1644240924426,
-        "stop" : 1644240925645,
-        "duration" : 1219
+        "start" : 1644243319388,
+        "stop" : 1644243320588,
+        "duration" : 1200
       },
       "status" : "passed",
       "steps" : [ ],
@@ -119,14 +119,12 @@
     "value" : "chrome-98.0.4758.80"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "101fd71b55866522.json",
+  "source" : "71e490dd64bce297.json",
   "parameterValues" : [ "chrome-98.0.4758.80" ]
 }

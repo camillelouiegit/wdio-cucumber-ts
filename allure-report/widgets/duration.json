@@ -1,30 +1,30 @@
 [ {
-  "uid" : "b100509e854bee33",
-  "name" : "Select and Add to Cart Ladies outerwears",
-  "time" : {
-    "start" : 1644242967787,
-    "stop" : 1644242973984,
-    "duration" : 6197
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b1ce47774b5d3b9",
+  "uid" : "4940d865f4664704",
   "name" : "Checkout and Place Order",
   "time" : {
-    "start" : 1644242973986,
-    "stop" : 1644242977605,
-    "duration" : 3619
+    "start" : 1644244264287,
+    "stop" : 1644244268159,
+    "duration" : 3872
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "158b9ef0ec501868",
+  "uid" : "18205564d40cf3ef",
+  "name" : "Select and Add to Cart Ladies outerwears",
+  "time" : {
+    "start" : 1644244258043,
+    "stop" : 1644244264286,
+    "duration" : 6243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab97477ff6660727",
   "name" : "Navigate to Shirt Sections",
   "time" : {
-    "start" : 1644242965280,
-    "stop" : 1644242967787,
-    "duration" : 2507
+    "start" : 1644244255469,
+    "stop" : 1644244258042,
+    "duration" : 2573
   },
   "status" : "passed",
   "severity" : "normal"

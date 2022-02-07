@@ -1,12 +1,12 @@
 {
-  "uid" : "6b1ce47774b5d3b9",
-  "name" : "Checkout and Place Order",
-  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Checkout and Place Order",
-  "historyId" : "ed65461b3d5769b2ebdf89fd9e3efd02",
+  "uid" : "3fce3c79227979e0",
+  "name" : "Select and Add to Cart Ladies outerwears",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Select and Add to Cart Ladies outerwears",
+  "historyId" : "82e132e6a2da9fc1263d2e3109a46d83",
   "time" : {
-    "start" : 1644242973986,
-    "stop" : 1644242977605,
-    "duration" : 3619
+    "start" : 1644243309642,
+    "stop" : 1644243316912,
+    "duration" : 7270
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,17 +15,17 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
-  "retriesStatusChange" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "When I click Checkout button in the Cart",
+      "name" : "When I select a random shirt",
       "time" : {
-        "start" : 1644242973987,
-        "stop" : 1644242974099,
-        "duration" : 112
+        "start" : 1644243309643,
+        "stop" : 1644243315389,
+        "duration" : 5746
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,11 +36,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view the Checkout form",
+      "name" : "Then I should view the details of the shirt",
       "time" : {
-        "start" : 1644242974099,
-        "stop" : 1644242974248,
-        "duration" : 149
+        "start" : 1644243315389,
+        "stop" : 1644243315502,
+        "duration" : 113
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,11 +51,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I enter all required fields in the Checkout form and click Place Order",
+      "name" : "When I click Add To Cart",
       "time" : {
-        "start" : 1644242974248,
-        "stop" : 1644242976415,
-        "duration" : 2167
+        "start" : 1644243315502,
+        "stop" : 1644243315597,
+        "duration" : 95
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,11 +66,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view \"Thank you\" message",
+      "name" : "And I click View Cart",
       "time" : {
-        "start" : 1644242976415,
-        "stop" : 1644242977604,
-        "duration" : 1189
+        "start" : 1644243315597,
+        "stop" : 1644243316783,
+        "duration" : 1186
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view the added Tshirt",
+      "time" : {
+        "start" : 1644243316783,
+        "stop" : 1644243316911,
+        "duration" : 128
       },
       "status" : "passed",
       "steps" : [ ],
@@ -83,7 +98,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 4,
+    "stepsCount" : 5,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -106,7 +121,7 @@
     "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "testMethod",
-    "value" : "Checkout and Place Order"
+    "value" : "Select and Add to Cart Ladies outerwears"
   }, {
     "name" : "package",
     "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
@@ -119,23 +134,12 @@
     "value" : "chrome-98.0.4758.80"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "e4ae1af05fcd882e",
-      "status" : "broken",
-      "statusDetails" : "Error: Can't call $ on element with selector \"function() {",
-      "time" : {
-        "start" : 1644242899668,
-        "stop" : 1644242905019,
-        "duration" : 5351
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6b1ce47774b5d3b9.json",
+  "source" : "3fce3c79227979e0.json",
   "parameterValues" : [ "chrome-98.0.4758.80" ]
 }

@@ -3,14 +3,14 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Navigate to Shirt Sections",
-      "uid" : "8892c1751bf59b3b",
+      "name" : "Checkout and Place Order",
+      "uid" : "71e490dd64bce297",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1644242891014,
-        "stop" : 1644242893648,
-        "duration" : 2634
+        "start" : 1644243316913,
+        "stop" : 1644243320589,
+        "duration" : 3676
       },
       "flaky" : false,
       "newFailed" : false,
@@ -20,31 +20,31 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
-      "name" : "Checkout and Place Order",
-      "uid" : "6b1ce47774b5d3b9",
+      "name" : "Select and Add to Cart Ladies outerwears",
+      "uid" : "3fce3c79227979e0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1644242973986,
-        "stop" : 1644242977605,
-        "duration" : 3619
+        "start" : 1644243309642,
+        "stop" : 1644243316912,
+        "duration" : 7270
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
       "name" : "Navigate to Shirt Sections",
-      "uid" : "158b9ef0ec501868",
+      "uid" : "ab97477ff6660727",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1644242965280,
-        "stop" : 1644242967787,
-        "duration" : 2507
+        "start" : 1644244255469,
+        "stop" : 1644244258042,
+        "duration" : 2573
       },
       "flaky" : false,
       "newFailed" : false,
@@ -55,30 +55,30 @@
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
       "name" : "Select and Add to Cart Ladies outerwears",
-      "uid" : "b100509e854bee33",
+      "uid" : "18205564d40cf3ef",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1644242967787,
-        "stop" : 1644242973984,
-        "duration" : 6197
+        "start" : 1644244258043,
+        "stop" : 1644244264286,
+        "duration" : 6243
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
       "retriesCount" : 1,
-      "retriesStatusChange" : true,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
-      "name" : "Select and Add to Cart Ladies outerwears",
-      "uid" : "ec7bc04977caa79",
+      "name" : "Navigate to Shirt Sections",
+      "uid" : "feead5400ab926b2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1644242893648,
-        "stop" : 1644242899667,
-        "duration" : 6019
+        "start" : 1644243307166,
+        "stop" : 1644243309642,
+        "duration" : 2476
       },
       "flaky" : false,
       "newFailed" : false,
@@ -89,19 +89,19 @@
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
       "name" : "Checkout and Place Order",
-      "uid" : "e4ae1af05fcd882e",
+      "uid" : "4940d865f4664704",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1644242899668,
-        "stop" : 1644242905019,
-        "duration" : 5351
+        "start" : 1644244264287,
+        "stop" : 1644244268159,
+        "duration" : 3872
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 0,
+      "retriesCount" : 1,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     } ],

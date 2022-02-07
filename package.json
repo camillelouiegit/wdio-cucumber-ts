@@ -6,7 +6,7 @@
     "polymer-smoke": "npx wdio wdio.conf.ts --suite polymer_Smoke",
     "saucedemo-smoke": "npx wdio wdio.conf.ts --suite saucedemo_Smoke",
     "clean-dir": "cleandir ./reports/allure-results",
-    "report": "allure generate ./reports/allure-results --clean && allure open"
+    "report": "allure --clean generate ./reports/allure-results"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.13",
