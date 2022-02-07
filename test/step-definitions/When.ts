@@ -5,7 +5,7 @@ import Checkoutpage from "../../src/pages/polymer.checkout.page";
 import SauceDemoHomePage from "../../src/pages/saucedemo.home.page";
 import SauceDemoProductsPage from "../../src/pages/saucedemo.checkout.page";
 
-//Sauce Demo
+// ------------- Sauce Demo Start ------------- //
 When(
   /^I login using (.+) and (.+)$/,
   async (username: string, password: string) => {
@@ -38,8 +38,9 @@ When(/^I click continue$/, async () => {
 When(/^I click finish$/, async () => {
   await SauceDemoProductsPage.finishCheckOut();
 });
+// ------------- Sauce Demo End ------------- //
 
-//Polymer Shop
+// ------------- Polymer Shop Start ------------- //
 When(/^I navigate to (.+) section$/, async (option: string) => {
   await Homepage.chooseSection(option);
 });
@@ -70,3 +71,4 @@ When(
     await Checkoutpage.setCheckOutForm();
   }
 );
+// ------------- Polymer Shop End ------------- //
