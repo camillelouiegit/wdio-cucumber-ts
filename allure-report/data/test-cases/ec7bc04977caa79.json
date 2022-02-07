@@ -1,0 +1,135 @@
+{
+  "uid" : "ec7bc04977caa79",
+  "name" : "Select and Add to Cart Ladies outerwears",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Select and Add to Cart Ladies outerwears",
+  "historyId" : "82e132e6a2da9fc1263d2e3109a46d83",
+  "time" : {
+    "start" : 1644242893648,
+    "stop" : 1644242899667,
+    "duration" : 6019
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=98.0.4758.80)\n                0   chromedriver                        0x0000000106c33e69 chromedriver + 5160553\n                1   chromedriver                        0x0000000106bbe593 chromedriver + 4679059\n                2   chromedriver                        0x000000010677217f chromedriver + 172415\n                3   chromedriver                        0x00000001067a8c37 chromedriver + 396343\n                4   chromedriver                        0x000000010679cd19 chromedriver + 347417\n                5   chromedriver                        0x00000001067c5362 chromedriver + 512866\n                6   chromedriver                        0x000000010679c5b5 chromedriver + 345525\n                7   chromedriver                        0x00000001067c567e chromedriver + 513662\n                8   chromedriver                        0x00000001067d80ab chromedriver + 589995\n                9   chromedriver                        0x00000001067c5623 chromedriver + 513571\n                10  chromedriver                        0x000000010679adce chromedriver + 339406\n                11  chromedriver                        0x000000010679c105 chromedriver + 344325\n                12  chromedriver                        0x0000000106bef23e chromedriver + 4878910\n                13  chromedriver                        0x0000000106c06d17 chromedriver + 4975895\n                14  chromedriver                        0x0000000106c0ca3f chromedriver + 4999743\n                15  chromedriver                        0x0000000106c0761a chromedriver + 4978202\n                16  chromedriver                        0x0000000106be3bb1 chromedriver + 4832177\n                17  chromedriver                        0x0000000106c23fd8 chromedriver + 5095384\n                18  chromedriver                        0x0000000106c24161 chromedriver + 5095777\n                19  chromedriver                        0x0000000106c3b2a8 chromedriver + 5190312\n                20  libsystem_pthread.dylib             0x00007fff206df8fc _pthread_start + 224\n                21  libsystem_pthread.dylib             0x00007fff206db443 thread_start + 15\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=98.0.4758.80)\n                0   chromedriver                        0x0000000106c33e69 chromedriver + 5160553\n                1   chromedriver                        0x0000000106bbe593 chromedriver + 4679059\n                2   chromedriver                        0x000000010677217f chromedriver + 172415\n                3   chromedriver                        0x00000001067a8c37 chromedriver + 396343\n                4   chromedriver                        0x000000010679cd19 chromedriver + 347417\n                5   chromedriver                        0x00000001067c5362 chromedriver + 512866\n                6   chromedriver                        0x000000010679c5b5 chromedriver + 345525\n                7   chromedriver                        0x00000001067c567e chromedriver + 513662\n                8   chromedriver                        0x00000001067d80ab chromedriver + 589995\n                9   chromedriver                        0x00000001067c5623 chromedriver + 513571\n                10  chromedriver                        0x000000010679adce chromedriver + 339406\n                11  chromedriver                        0x000000010679c105 chromedriver + 344325\n                12  chromedriver                        0x0000000106bef23e chromedriver + 4878910\n                13  chromedriver                        0x0000000106c06d17 chromedriver + 4975895\n                14  chromedriver                        0x0000000106c0ca3f chromedriver + 4999743\n                15  chromedriver                        0x0000000106c0761a chromedriver + 4978202\n                16  chromedriver                        0x0000000106be3bb1 chromedriver + 4832177\n                17  chromedriver                        0x0000000106c23fd8 chromedriver + 5095384\n                18  chromedriver                        0x0000000106c24161 chromedriver + 5095777\n                19  chromedriver                        0x0000000106c3b2a8 chromedriver + 5190312\n                20  libsystem_pthread.dylib             0x00007fff206df8fc _pthread_start + 224\n                21  libsystem_pthread.dylib             0x00007fff206db443 thread_start + 15\n                ",
+    "steps" : [ {
+      "name" : "When I select a random shirt",
+      "time" : {
+        "start" : 1644242893649,
+        "stop" : 1644242899378,
+        "duration" : 5729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view the details of the shirt",
+      "time" : {
+        "start" : 1644242899379,
+        "stop" : 1644242899479,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click Add To Cart",
+      "time" : {
+        "start" : 1644242899480,
+        "stop" : 1644242899563,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click View Cart",
+      "time" : {
+        "start" : 1644242899563,
+        "stop" : 1644242899667,
+        "duration" : 104
+      },
+      "status" : "broken",
+      "statusMessage" : "element not interactable\n                  (Session info: chrome=98.0.4758.80)\n                0   chromedriver                        0x0000000106c33e69 chromedriver + 5160553\n                1   chromedriver                        0x0000000106bbe593 chromedriver + 4679059\n                2   chromedriver                        0x000000010677217f chromedriver + 172415\n                3   chromedriver                        0x00000001067a8c37 chromedriver + 396343\n                4   chromedriver                        0x000000010679cd19 chromedriver + 347417\n                5   chromedriver                        0x00000001067c5362 chromedriver + 512866\n                6   chromedriver                        0x000000010679c5b5 chromedriver + 345525\n                7   chromedriver                        0x00000001067c567e chromedriver + 513662\n                8   chromedriver                        0x00000001067d80ab chromedriver + 589995\n                9   chromedriver                        0x00000001067c5623 chromedriver + 513571\n                10  chromedriver                        0x000000010679adce chromedriver + 339406\n                11  chromedriver                        0x000000010679c105 chromedriver + 344325\n                12  chromedriver                        0x0000000106bef23e chromedriver + 4878910\n                13  chromedriver                        0x0000000106c06d17 chromedriver + 4975895\n                14  chromedriver                        0x0000000106c0ca3f chromedriver + 4999743\n                15  chromedriver                        0x0000000106c0761a chromedriver + 4978202\n                16  chromedriver                        0x0000000106be3bb1 chromedriver + 4832177\n                17  chromedriver                        0x0000000106c23fd8 chromedriver + 5095384\n                18  chromedriver                        0x0000000106c24161 chromedriver + 5095777\n                19  chromedriver                        0x0000000106c3b2a8 chromedriver + 5190312\n                20  libsystem_pthread.dylib             0x00007fff206df8fc _pthread_start + 224\n                21  libsystem_pthread.dylib             0x00007fff206db443 thread_start + 15\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select and Add to Cart Ladies outerwears"
+  }, {
+    "name" : "package",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec7bc04977caa79.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

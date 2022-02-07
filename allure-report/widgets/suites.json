@@ -1,8 +1,8 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "cfd4d14badc60ab86fef81bdeee7dcec",
-    "name" : "User is able to Checkout",
+    "uid" : "c1421b23e9090ec19a33500d25377553",
+    "name" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644242965259' stop='1644242977605'>
+    <name>User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop</name>
+    <title>User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop</title>
+    <test-cases>
+        <test-case start='1644242965280' status='passed' stop='1644242967787'>
+            <name>Navigate to Shirt Sections</name>
+            <title>Navigate to Shirt Sections</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644242965282' status='passed' stop='1644242965285'>
+                    <name>Given I am on the home page "https://shop.polymer-project.org/"</name>
+                    <title>Given I am on the home page "https://shop.polymer-project.org/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242965285' status='passed' stop='1644242967744'>
+                    <name>When I navigate to Men's Outerwear section</name>
+                    <title>When I navigate to Men's Outerwear section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242967745' status='passed' stop='1644242967785'>
+                    <name>Then I should view all shirt List</name>
+                    <title>Then I should view all shirt List</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1644242967787' status='passed' stop='1644242973984'>
+            <name>Select and Add to Cart Ladies outerwears</name>
+            <title>Select and Add to Cart Ladies outerwears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644242967787' status='passed' stop='1644242973536'>
+                    <name>When I select a random shirt</name>
+                    <title>When I select a random shirt</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242973537' status='passed' stop='1644242973637'>
+                    <name>Then I should view the details of the shirt</name>
+                    <title>Then I should view the details of the shirt</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242973637' status='passed' stop='1644242973733'>
+                    <name>When I click Add To Cart</name>
+                    <title>When I click Add To Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242973733' status='passed' stop='1644242973866'>
+                    <name>And I click View Cart</name>
+                    <title>And I click View Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242973866' status='passed' stop='1644242973981'>
+                    <name>Then I should view the added Tshirt</name>
+                    <title>Then I should view the added Tshirt</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1644242973986' status='passed' stop='1644242977605'>
+            <name>Checkout and Place Order</name>
+            <title>Checkout and Place Order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644242973987' status='passed' stop='1644242974099'>
+                    <name>When I click Checkout button in the Cart</name>
+                    <title>When I click Checkout button in the Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242974099' status='passed' stop='1644242974248'>
+                    <name>Then I should view the Checkout form</name>
+                    <title>Then I should view the Checkout form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242974248' status='passed' stop='1644242976415'>
+                    <name>When I enter all required fields in the Checkout form and click Place Order</name>
+                    <title>When I enter all required fields in the Checkout form and click Place Order</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242976415' status='passed' stop='1644242977604'>
+                    <name>Then I should view "Thank you" message</name>
+                    <title>Then I should view "Thank you" message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

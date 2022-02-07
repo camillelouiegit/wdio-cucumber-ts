@@ -1,12 +1,12 @@
 {
-  "uid" : "ee9e76a3318d82cf",
-  "name" : "TC-002 Add to Cart",
-  "fullName" : "User is able to Checkout.TC-002 Add to Cart",
-  "historyId" : "9434a3b891f88c9687ed7efae432df41",
+  "uid" : "158b9ef0ec501868",
+  "name" : "Navigate to Shirt Sections",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Navigate to Shirt Sections",
+  "historyId" : "b1045f33183dde68abdd360e1b493e8",
   "time" : {
-    "start" : 1644241500449,
-    "stop" : 1644241501055,
-    "duration" : 606
+    "start" : 1644242965280,
+    "stop" : 1644242967787,
+    "duration" : 2507
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,17 +15,17 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "When I add to cart the items",
+      "name" : "Given I am on the home page \"https://shop.polymer-project.org/\"",
       "time" : {
-        "start" : 1644241500449,
-        "stop" : 1644241500837,
-        "duration" : 388
+        "start" : 1644242965282,
+        "stop" : 1644242965285,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,11 +36,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "And I view my Cart",
+      "name" : "When I navigate to Men's Outerwear section",
       "time" : {
-        "start" : 1644241500838,
-        "stop" : 1644241500898,
-        "duration" : 60
+        "start" : 1644242965285,
+        "stop" : 1644242967744,
+        "duration" : 2459
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,11 +51,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view items added to my Cart",
+      "name" : "Then I should view all shirt List",
       "time" : {
-        "start" : 1644241500898,
-        "stop" : 1644241501055,
-        "duration" : 157
+        "start" : 1644242967745,
+        "stop" : 1644242967785,
+        "duration" : 40
       },
       "status" : "passed",
       "steps" : [ ],
@@ -85,16 +85,16 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "User is able to Checkout"
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "testClass",
-    "value" : "User is able to Checkout"
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "testMethod",
-    "value" : "TC-002 Add to Cart"
+    "value" : "Navigate to Shirt Sections"
   }, {
     "name" : "package",
-    "value" : "User is able to Checkout"
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -104,12 +104,22 @@
     "value" : "chrome-98.0.4758.80"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8892c1751bf59b3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644242891014,
+        "stop" : 1644242893648,
+        "duration" : 2634
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ee9e76a3318d82cf.json",
+  "source" : "158b9ef0ec501868.json",
   "parameterValues" : [ "chrome-98.0.4758.80" ]
 }

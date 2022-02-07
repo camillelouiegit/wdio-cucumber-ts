@@ -134,6 +134,7 @@ class LadiesShirtPage extends TestBase {
   async clickViewCart() {
     await this.verifyElementIsDisplayed(this.cartModal);
     await this.verifyElementIsDisplayed(this.btnViewCart);
+    await this.verifyElementIsClickable(this.btnViewCart);
     await this.click(this.btnViewCart);
   }
 

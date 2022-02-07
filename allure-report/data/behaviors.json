@@ -1,55 +1,55 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "TC-001 Navigate to Sauce Demo Site",
-    "uid" : "26ec7ac082c0a807",
+    "name" : "Navigate to Shirt Sections",
+    "uid" : "158b9ef0ec501868",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644242332264,
-      "stop" : 1644242333472,
-      "duration" : 1208
+      "start" : 1644242965280,
+      "stop" : 1644242967787,
+      "duration" : 2507
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 2,
+    "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-98.0.4758.80" ]
   }, {
-    "name" : "TC-002 Add to Cart",
-    "uid" : "66b56e0aa1d636c8",
+    "name" : "Select and Add to Cart Ladies outerwears",
+    "uid" : "b100509e854bee33",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644242333472,
-      "stop" : 1644242333988,
-      "duration" : 516
+      "start" : 1644242967787,
+      "stop" : 1644242973984,
+      "duration" : 6197
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-98.0.4758.80" ]
   }, {
-    "name" : "TC-003 Checkout",
-    "uid" : "8f8c767ce407014b",
+    "name" : "Checkout and Place Order",
+    "uid" : "6b1ce47774b5d3b9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644242333988,
-      "stop" : 1644242334576,
-      "duration" : 588
+      "start" : 1644242973986,
+      "stop" : 1644242977605,
+      "duration" : 3619
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-98.0.4758.80" ]
   } ],
   "name" : "behaviors"

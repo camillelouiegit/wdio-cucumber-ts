@@ -1,12 +1,12 @@
 {
-  "uid" : "26ec7ac082c0a807",
-  "name" : "TC-001 Navigate to Sauce Demo Site",
-  "fullName" : "User is able to Checkout.TC-001 Navigate to Sauce Demo Site",
-  "historyId" : "84a221dd587c3ed3813b037c6fdd45b",
+  "uid" : "6b1ce47774b5d3b9",
+  "name" : "Checkout and Place Order",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Checkout and Place Order",
+  "historyId" : "ed65461b3d5769b2ebdf89fd9e3efd02",
   "time" : {
-    "start" : 1644242332264,
-    "stop" : 1644242333472,
-    "duration" : 1208
+    "start" : 1644242973986,
+    "stop" : 1644242977605,
+    "duration" : 3619
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,17 +15,17 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 2,
-  "retriesStatusChange" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given I am on the home page \"https://www.saucedemo.com/\"",
+      "name" : "When I click Checkout button in the Cart",
       "time" : {
-        "start" : 1644242332266,
-        "stop" : 1644242332270,
-        "duration" : 4
+        "start" : 1644242973987,
+        "stop" : 1644242974099,
+        "duration" : 112
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,11 +36,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I login using standard_user and secret_sauce",
+      "name" : "Then I should view the Checkout form",
       "time" : {
-        "start" : 1644242332270,
-        "stop" : 1644242333457,
-        "duration" : 1187
+        "start" : 1644242974099,
+        "stop" : 1644242974248,
+        "duration" : 149
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,11 +51,26 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view header title \"Products\"",
+      "name" : "When I enter all required fields in the Checkout form and click Place Order",
       "time" : {
-        "start" : 1644242333457,
-        "stop" : 1644242333471,
-        "duration" : 14
+        "start" : 1644242974248,
+        "stop" : 1644242976415,
+        "duration" : 2167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view \"Thank you\" message",
+      "time" : {
+        "start" : 1644242976415,
+        "stop" : 1644242977604,
+        "duration" : 1189
       },
       "status" : "passed",
       "steps" : [ ],
@@ -68,7 +83,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 3,
+    "stepsCount" : 4,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -85,16 +100,16 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "User is able to Checkout"
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "testClass",
-    "value" : "User is able to Checkout"
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "testMethod",
-    "value" : "TC-001 Navigate to Sauce Demo Site"
+    "value" : "Checkout and Place Order"
   }, {
     "name" : "package",
-    "value" : "User is able to Checkout"
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -109,25 +124,18 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "f3fe0f5f5806d437",
-      "status" : "passed",
+      "uid" : "e4ae1af05fcd882e",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call $ on element with selector \"function() {",
       "time" : {
-        "start" : 1644242244068,
-        "stop" : 1644242246291,
-        "duration" : 2223
-      }
-    }, {
-      "uid" : "a10e77f77655bf3c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644241497106,
-        "stop" : 1644241500448,
-        "duration" : 3342
+        "start" : 1644242899668,
+        "stop" : 1644242905019,
+        "duration" : 5351
       }
     } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "26ec7ac082c0a807.json",
+  "source" : "6b1ce47774b5d3b9.json",
   "parameterValues" : [ "chrome-98.0.4758.80" ]
 }
