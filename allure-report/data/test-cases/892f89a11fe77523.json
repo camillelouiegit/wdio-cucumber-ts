@@ -1,12 +1,12 @@
 {
-  "uid" : "3fce3c79227979e0",
-  "name" : "Select and Add to Cart Ladies outerwears",
-  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Select and Add to Cart Ladies outerwears",
-  "historyId" : "82e132e6a2da9fc1263d2e3109a46d83",
+  "uid" : "892f89a11fe77523",
+  "name" : "TC-003 Checkout",
+  "fullName" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App.TC-003 Checkout",
+  "historyId" : "2a6dba7210219fafac10464d9e0bf809",
   "time" : {
-    "start" : 1644243309642,
-    "stop" : 1644243316912,
-    "duration" : 7270
+    "start" : 1644244917972,
+    "stop" : 1644244918580,
+    "duration" : 608
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -21,11 +21,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "When I select a random shirt",
+      "name" : "When I checkout the items in the cart",
       "time" : {
-        "start" : 1644243309643,
-        "stop" : 1644243315389,
-        "duration" : 5746
+        "start" : 1644244917973,
+        "stop" : 1644244918027,
+        "duration" : 54
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,11 +36,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view the details of the shirt",
+      "name" : "Then I should view the checkout form",
       "time" : {
-        "start" : 1644243315389,
-        "stop" : 1644243315502,
-        "duration" : 113
+        "start" : 1644244918027,
+        "stop" : 1644244918059,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,11 +51,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "When I click Add To Cart",
+      "name" : "When I input details in the checkout form",
       "time" : {
-        "start" : 1644243315502,
-        "stop" : 1644243315597,
-        "duration" : 95
+        "start" : 1644244918059,
+        "stop" : 1644244918421,
+        "duration" : 362
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,11 +66,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "And I click View Cart",
+      "name" : "And I click continue",
       "time" : {
-        "start" : 1644243315597,
-        "stop" : 1644243316783,
-        "duration" : 1186
+        "start" : 1644244918421,
+        "stop" : 1644244918498,
+        "duration" : 77
       },
       "status" : "passed",
       "steps" : [ ],
@@ -81,11 +81,41 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then I should view the added Tshirt",
+      "name" : "Then I should view checkout details",
       "time" : {
-        "start" : 1644243316783,
-        "stop" : 1644243316911,
-        "duration" : 128
+        "start" : 1644244918499,
+        "stop" : 1644244918511,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click finish",
+      "time" : {
+        "start" : 1644244918512,
+        "stop" : 1644244918563,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view success message",
+      "time" : {
+        "start" : 1644244918563,
+        "stop" : 1644244918579,
+        "duration" : 16
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,7 +128,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 7,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -115,16 +145,16 @@
     "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+    "value" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App"
   }, {
     "name" : "testClass",
-    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+    "value" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App"
   }, {
     "name" : "testMethod",
-    "value" : "Select and Add to Cart Ladies outerwears"
+    "value" : "TC-003 Checkout"
   }, {
     "name" : "package",
-    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+    "value" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -134,12 +164,14 @@
     "value" : "chrome-98.0.4758.80"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3fce3c79227979e0.json",
+  "source" : "892f89a11fe77523.json",
   "parameterValues" : [ "chrome-98.0.4758.80" ]
 }

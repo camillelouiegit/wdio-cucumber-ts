@@ -1,60 +1,60 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop",
+    "name" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App",
     "children" : [ {
-      "name" : "Navigate to Shirt Sections",
-      "uid" : "ab97477ff6660727",
-      "parentUid" : "68ca43c67dd299d89d3afaeda46e26e9",
+      "name" : "TC-001 Navigate to Sauce Demo Site",
+      "uid" : "7e1210640eb2aded",
+      "parentUid" : "1365ce23868a6df830329086014803b7",
       "status" : "passed",
       "time" : {
-        "start" : 1644244255469,
-        "stop" : 1644244258042,
-        "duration" : 2573
+        "start" : 1644244915208,
+        "stop" : 1644244917374,
+        "duration" : 2166
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
-      "name" : "Select and Add to Cart Ladies outerwears",
-      "uid" : "18205564d40cf3ef",
-      "parentUid" : "68ca43c67dd299d89d3afaeda46e26e9",
+      "name" : "TC-002 Add to Cart",
+      "uid" : "aaa56040f28e4810",
+      "parentUid" : "1365ce23868a6df830329086014803b7",
       "status" : "passed",
       "time" : {
-        "start" : 1644244258043,
-        "stop" : 1644244264286,
-        "duration" : 6243
+        "start" : 1644244917374,
+        "stop" : 1644244917972,
+        "duration" : 598
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
-      "name" : "Checkout and Place Order",
-      "uid" : "4940d865f4664704",
-      "parentUid" : "68ca43c67dd299d89d3afaeda46e26e9",
+      "name" : "TC-003 Checkout",
+      "uid" : "892f89a11fe77523",
+      "parentUid" : "1365ce23868a6df830329086014803b7",
       "status" : "passed",
       "time" : {
-        "start" : 1644244264287,
-        "stop" : 1644244268159,
-        "duration" : 3872
+        "start" : 1644244917972,
+        "stop" : 1644244918580,
+        "duration" : 608
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
     } ],
-    "uid" : "68ca43c67dd299d89d3afaeda46e26e9"
+    "uid" : "1365ce23868a6df830329086014803b7"
   } ],
   "name" : "packages"
 }

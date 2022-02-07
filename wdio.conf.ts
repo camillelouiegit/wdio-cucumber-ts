@@ -180,7 +180,7 @@ export const config: WebdriverIO.Config = {
     [
       "allure",
       {
-        outputDir: "./reports/allure-results",
+        outputDir: "allure-results",
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true,
         useCucumberStepReporter: true,

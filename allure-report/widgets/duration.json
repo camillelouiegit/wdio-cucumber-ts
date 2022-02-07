@@ -1,30 +1,30 @@
 [ {
-  "uid" : "4940d865f4664704",
-  "name" : "Checkout and Place Order",
+  "uid" : "7e1210640eb2aded",
+  "name" : "TC-001 Navigate to Sauce Demo Site",
   "time" : {
-    "start" : 1644244264287,
-    "stop" : 1644244268159,
-    "duration" : 3872
+    "start" : 1644244915208,
+    "stop" : 1644244917374,
+    "duration" : 2166
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18205564d40cf3ef",
-  "name" : "Select and Add to Cart Ladies outerwears",
+  "uid" : "892f89a11fe77523",
+  "name" : "TC-003 Checkout",
   "time" : {
-    "start" : 1644244258043,
-    "stop" : 1644244264286,
-    "duration" : 6243
+    "start" : 1644244917972,
+    "stop" : 1644244918580,
+    "duration" : 608
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ab97477ff6660727",
-  "name" : "Navigate to Shirt Sections",
+  "uid" : "aaa56040f28e4810",
+  "name" : "TC-002 Add to Cart",
   "time" : {
-    "start" : 1644244255469,
-    "stop" : 1644244258042,
-    "duration" : 2573
+    "start" : 1644244917374,
+    "stop" : 1644244917972,
+    "duration" : 598
   },
   "status" : "passed",
   "severity" : "normal"
