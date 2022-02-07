@@ -3,10 +3,27 @@ import Homepage from "../../src/pages/polymer.home.page";
 import ProductsPage from "../../src/pages/polymer.products.page";
 import Checkoutpage from "../../src/pages/polymer.checkout.page";
 import SauceDemoHomePage from "../../src/pages/saucedemo.home.page";
+import SaucedemoProductsPage from "../../src/pages/saucedemo.checkout.page";
 
 //Sauce Demo
 Then(/^I should view header title \"([^\"]*)\"$/, async (title: string) => {
   await SauceDemoHomePage.verifyPageHeader(title);
+});
+
+Then(/^I should view items added to my Cart$/, async () => {
+  await SaucedemoProductsPage.verifyAddedToCart();
+});
+
+Then(/^I should view the checkout form$/, async () => {
+  await SaucedemoProductsPage.verifyCheckOutForm();
+});
+
+Then(/^I should view checkout details$/, async () => {
+  await SaucedemoProductsPage.verifyCartListCheckOut();
+});
+
+Then(/^I should view success message$/, async () => {
+  await SaucedemoProductsPage.verifySuccessMessage();
 });
 
 //Polymer

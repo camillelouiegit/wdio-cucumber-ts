@@ -3,7 +3,7 @@ import Homepage from "../../src/pages/polymer.home.page";
 import ProductsPage from "../../src/pages/polymer.products.page";
 import Checkoutpage from "../../src/pages/polymer.checkout.page";
 import SauceDemoHomePage from "../../src/pages/saucedemo.home.page";
-import SauceDemoProductsPage from "../../src/pages/saucedemo.products.page";
+import SauceDemoProductsPage from "../../src/pages/saucedemo.checkout.page";
 
 //Sauce Demo
 When(
@@ -17,6 +17,26 @@ When(
 
 When(/^I add to cart the items$/, async () => {
   await SauceDemoProductsPage.addItemsToCart();
+});
+
+When(/^I view my Cart$/, async () => {
+  await SauceDemoProductsPage.viewCart();
+});
+
+When(/^I checkout the items in the cart$/, async () => {
+  await SauceDemoProductsPage.checkOutCart();
+});
+
+When(/^I input details in the checkout form$/, async () => {
+  await SauceDemoProductsPage.inputForm();
+});
+
+When(/^I click continue$/, async () => {
+  await SauceDemoProductsPage.continueCheckOut();
+});
+
+When(/^I click finish$/, async () => {
+  await SauceDemoProductsPage.finishCheckOut();
 });
 
 //Polymer Shop
