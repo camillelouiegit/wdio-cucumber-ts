@@ -5,9 +5,13 @@ Quick Setup
 2. Install Git Bash
 3. Open git bash
 4. Create folder or directly type in bash terminal 
+  
   git clone "https://github.com/camillelouiegit/wdio-cucumber-ts.git"
+
 5. Navigate to the cloned repository
+  
   cd wdio-cucumber-ts
+
 6. Install the dependencies:
   npm install
   
