@@ -5,7 +5,7 @@ import Checkoutpage from "../../src/pages/polymer.checkout.page";
 import SauceDemoHomePage from "../../src/pages/saucedemo.home.page";
 import SaucedemoProductsPage from "../../src/pages/saucedemo.checkout.page";
 
-//Sauce Demo
+// ------------- Sauce Demo Start ------------- //
 Then(/^I should view header title \"([^\"]*)\"$/, async (title: string) => {
   await SauceDemoHomePage.verifyPageHeader(title);
 });
@@ -26,7 +26,9 @@ Then(/^I should view success message$/, async () => {
   await SaucedemoProductsPage.verifySuccessMessage();
 });
 
-//Polymer
+// ------------- Sauce Demo End ------------- //
+
+// ------------- Polymer Shop Start ------------- //
 Then(/^I should view all shirt List$/, async () => {
   await Homepage.verifyHeaderTitle();
 });
@@ -46,3 +48,4 @@ Then(/^I should view the Checkout form$/, async () => {
 Then(/^I should view \"([^\"]*)\" message$/, async (text: string) => {
   await Checkoutpage.verifyCheckOutSuccess(text);
 });
+// ------------- Polymer Shop End ------------- //
