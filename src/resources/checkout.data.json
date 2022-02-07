@@ -1,0 +1,15 @@
+{
+    "email": "polymertest@wdio.com",
+    "phone": "09876543211",
+    "address": "New Road",
+    "city": "Montreal",
+    "state": "Quebec",
+    "zip": "6014",
+    "country": "CA",
+    "cardName": "Justin Beiber",
+    "cardNum": "6969 6969 6969 6969",
+    "cardMonth": "08",
+    "cardYear": "2021",
+    "cvv": "619",
+    "assertTxtThankYou": "Thank you"
+}
