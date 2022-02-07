@@ -54,4 +54,12 @@ export default class TestBase {
       console.error();
     }
   };
+
+  verifyElementIsClickable = async (element: Promise<any>) => {
+    try {
+      (await element).isClickable();
+    } catch (error) {
+      console.error();
+    }
+  };
 }

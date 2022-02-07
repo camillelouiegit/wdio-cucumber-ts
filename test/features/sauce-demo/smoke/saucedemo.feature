@@ -1,4 +1,4 @@
-Feature: User is able to Checkout
+Feature: User is able to Login, Add to Cart, Checkout in Sauce Demo App
 
   Scenario: TC-001 Navigate to Sauce Demo Site
     Given I am on the home page "https://www.saucedemo.com/"

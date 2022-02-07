@@ -52,6 +52,10 @@ export const config: WebdriverIO.Config = {
   exclude: [
     // 'path/to/excluded/files'
   ],
+  suites: {
+    polymer_Smoke: ["./test/features/polymer-shop/smoke/*.feature"],
+    saucedemo_Smoke: ["./test/features/sauce-demo/smoke/*.feature"],
+  },
   //
   // ============
   // Capabilities
@@ -176,11 +180,11 @@ export const config: WebdriverIO.Config = {
     [
       "allure",
       {
-        outputDir: "allure-results",
+        outputDir: "./reports/allure-results",
         disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false,
+        disableWebdriverScreenshotsReporting: true,
         useCucumberStepReporter: true,
-        addConsoleLogs: true,
+        addConsoleLogs: false,
       },
     ],
   ],
@@ -302,7 +306,9 @@ export const config: WebdriverIO.Config = {
    * @param {Object}             context          Cucumber World object
    */
   afterStep: function (step, scenario, result, context) {
-    browser.takeScreenshot();
+    if (result.error) {
+      browser.takeScreenshot();
+    }
   },
   /**
    *

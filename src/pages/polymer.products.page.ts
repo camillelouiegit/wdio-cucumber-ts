@@ -119,6 +119,7 @@ class LadiesShirtPage extends TestBase {
   // ------------- Page Methods -------------
   async selectTShirt() {
     await this.verifyElementIsDisplayed(this.shopListItem);
+    await this.verifyElementIsClickable(this.list);
     await this.click(this.list);
   }
 

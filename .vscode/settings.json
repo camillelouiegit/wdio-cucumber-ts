@@ -3,5 +3,6 @@
   "cucumberautocomplete.syncfeatures": "test/features/*feature",
   "cucumberautocomplete.strictGherkinCompletion": true,
   "editor.formatOnSave": true,
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
