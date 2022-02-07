@@ -17,4 +17,5 @@ Quick Setup
   
   Test Run
   
- 1. npm test test/features/polymer-shop.checkout.feature
+ 1. npm test test/features/polymer-shop.checkout.feature or
+ 2. npm test test/features/saucedemo.feature
