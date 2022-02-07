@@ -17,4 +17,4 @@ Quick Setup
   
   Test Run
   
- 1. npm test/features/polymer-shop.checkout.feature
+ 1. npm test test/features/polymer-shop.checkout.feature
