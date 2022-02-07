@@ -1,0 +1,115 @@
+{
+  "uid" : "e8c54976ba44f334",
+  "name" : "TC-002 Add to Cart",
+  "fullName" : "User is able to Checkout.TC-002 Add to Cart",
+  "historyId" : "9434a3b891f88c9687ed7efae432df41",
+  "time" : {
+    "start" : 1644242246292,
+    "stop" : 1644242246833,
+    "duration" : 541
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I add to cart the items",
+      "time" : {
+        "start" : 1644242246293,
+        "stop" : 1644242246624,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I view my Cart",
+      "time" : {
+        "start" : 1644242246624,
+        "stop" : 1644242246678,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view items added to my Cart",
+      "time" : {
+        "start" : 1644242246678,
+        "stop" : 1644242246832,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User is able to Checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to Checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-002 Add to Cart"
+  }, {
+    "name" : "package",
+    "value" : "User is able to Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8c54976ba44f334.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

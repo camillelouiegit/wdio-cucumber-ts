@@ -1,0 +1,133 @@
+{
+  "uid" : "26ec7ac082c0a807",
+  "name" : "TC-001 Navigate to Sauce Demo Site",
+  "fullName" : "User is able to Checkout.TC-001 Navigate to Sauce Demo Site",
+  "historyId" : "84a221dd587c3ed3813b037c6fdd45b",
+  "time" : {
+    "start" : 1644242332264,
+    "stop" : 1644242333472,
+    "duration" : 1208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page \"https://www.saucedemo.com/\"",
+      "time" : {
+        "start" : 1644242332266,
+        "stop" : 1644242332270,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I login using standard_user and secret_sauce",
+      "time" : {
+        "start" : 1644242332270,
+        "stop" : 1644242333457,
+        "duration" : 1187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view header title \"Products\"",
+      "time" : {
+        "start" : 1644242333457,
+        "stop" : 1644242333471,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User is able to Checkout"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to Checkout"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-001 Navigate to Sauce Demo Site"
+  }, {
+    "name" : "package",
+    "value" : "User is able to Checkout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3fe0f5f5806d437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644242244068,
+        "stop" : 1644242246291,
+        "duration" : 2223
+      }
+    }, {
+      "uid" : "a10e77f77655bf3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644241497106,
+        "stop" : 1644241500448,
+        "duration" : 3342
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26ec7ac082c0a807.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

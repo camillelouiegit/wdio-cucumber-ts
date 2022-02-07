@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644242654601' stop='1644242657214'>
+    <name>User is able to Login, Add to Cart, Checkout in Sauce Demo App</name>
+    <title>User is able to Login, Add to Cart, Checkout in Sauce Demo App</title>
+    <test-cases>
+        <test-case start='1644242654625' status='passed' stop='1644242656074'>
+            <name>TC-001 Navigate to Sauce Demo Site</name>
+            <title>TC-001 Navigate to Sauce Demo Site</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644242654627' status='passed' stop='1644242654633'>
+                    <name>Given I am on the home page "https://www.saucedemo.com/"</name>
+                    <title>Given I am on the home page "https://www.saucedemo.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242654634' status='passed' stop='1644242656059'>
+                    <name>When I login using standard_user and secret_sauce</name>
+                    <title>When I login using standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242656059' status='passed' stop='1644242656072'>
+                    <name>Then I should view header title "Products"</name>
+                    <title>Then I should view header title "Products"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1644242656074' status='passed' stop='1644242656616'>
+            <name>TC-002 Add to Cart</name>
+            <title>TC-002 Add to Cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644242656075' status='passed' stop='1644242656423'>
+                    <name>When I add to cart the items</name>
+                    <title>When I add to cart the items</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242656423' status='passed' stop='1644242656476'>
+                    <name>And I view my Cart</name>
+                    <title>And I view my Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242656477' status='passed' stop='1644242656616'>
+                    <name>Then I should view items added to my Cart</name>
+                    <title>Then I should view items added to my Cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1644242656617' status='passed' stop='1644242657214'>
+            <name>TC-003 Checkout</name>
+            <title>TC-003 Checkout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+            </parameters>
+            <steps>
+                <step start='1644242656617' status='passed' stop='1644242656658'>
+                    <name>When I checkout the items in the cart</name>
+                    <title>When I checkout the items in the cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242656658' status='passed' stop='1644242656696'>
+                    <name>Then I should view the checkout form</name>
+                    <title>Then I should view the checkout form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242656696' status='passed' stop='1644242657051'>
+                    <name>When I input details in the checkout form</name>
+                    <title>When I input details in the checkout form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242657051' status='passed' stop='1644242657134'>
+                    <name>And I click continue</name>
+                    <title>And I click continue</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242657134' status='passed' stop='1644242657147'>
+                    <name>Then I should view checkout details</name>
+                    <title>Then I should view checkout details</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242657147' status='passed' stop='1644242657201'>
+                    <name>When I click finish</name>
+                    <title>When I click finish</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1644242657201' status='passed' stop='1644242657213'>
+                    <name>Then I should view success message</name>
+                    <title>Then I should view success message</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "26ec7ac082c0a807",
+  "name" : "TC-001 Navigate to Sauce Demo Site",
+  "time" : {
+    "start" : 1644242332264,
+    "stop" : 1644242333472,
+    "duration" : 1208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66b56e0aa1d636c8",
+  "name" : "TC-002 Add to Cart",
+  "time" : {
+    "start" : 1644242333472,
+    "stop" : 1644242333988,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8c767ce407014b",
+  "name" : "TC-003 Checkout",
+  "time" : {
+    "start" : 1644242333988,
+    "stop" : 1644242334576,
+    "duration" : 588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

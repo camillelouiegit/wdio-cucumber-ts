@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop",
+    "children" : [ {
+      "name" : "Navigate to Shirt Sections",
+      "uid" : "4b0700ac20e5d0b7",
+      "parentUid" : "68ca43c67dd299d89d3afaeda46e26e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644240909543,
+        "stop" : 1644240914871,
+        "duration" : 5328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    }, {
+      "name" : "Select and Add to Cart Ladies outerwears",
+      "uid" : "db649e830038d5a2",
+      "parentUid" : "68ca43c67dd299d89d3afaeda46e26e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644240914871,
+        "stop" : 1644240922035,
+        "duration" : 7164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    }, {
+      "name" : "Checkout and Place Order",
+      "uid" : "101fd71b55866522",
+      "parentUid" : "68ca43c67dd299d89d3afaeda46e26e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644240922035,
+        "stop" : 1644240925645,
+        "duration" : 3610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    } ],
+    "uid" : "68ca43c67dd299d89d3afaeda46e26e9"
+  } ]
+}

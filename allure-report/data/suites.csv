@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Feb 07 21:58:53 PHT 2022","Mon Feb 07 21:58:54 PHT 2022","588","","User is able to Checkout","","User is able to Checkout","TC-003 Checkout","TC-003 Checkout",""
+"passed","Mon Feb 07 21:58:53 PHT 2022","Mon Feb 07 21:58:53 PHT 2022","516","","User is able to Checkout","","User is able to Checkout","TC-002 Add to Cart","TC-002 Add to Cart",""
+"passed","Mon Feb 07 21:58:52 PHT 2022","Mon Feb 07 21:58:53 PHT 2022","1208","","User is able to Checkout","","User is able to Checkout","TC-001 Navigate to Sauce Demo Site","TC-001 Navigate to Sauce Demo Site",""

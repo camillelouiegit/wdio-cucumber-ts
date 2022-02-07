@@ -1,0 +1,60 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "User is able to Checkout",
+    "children" : [ {
+      "name" : "TC-001 Navigate to Sauce Demo Site",
+      "uid" : "26ec7ac082c0a807",
+      "parentUid" : "cfd4d14badc60ab86fef81bdeee7dcec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644242332264,
+        "stop" : 1644242333472,
+        "duration" : 1208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    }, {
+      "name" : "TC-002 Add to Cart",
+      "uid" : "66b56e0aa1d636c8",
+      "parentUid" : "cfd4d14badc60ab86fef81bdeee7dcec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644242333472,
+        "stop" : 1644242333988,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    }, {
+      "name" : "TC-003 Checkout",
+      "uid" : "8f8c767ce407014b",
+      "parentUid" : "cfd4d14badc60ab86fef81bdeee7dcec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644242333988,
+        "stop" : 1644242334576,
+        "duration" : 588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80" ]
+    } ],
+    "uid" : "cfd4d14badc60ab86fef81bdeee7dcec"
+  } ],
+  "name" : "suites"
+}

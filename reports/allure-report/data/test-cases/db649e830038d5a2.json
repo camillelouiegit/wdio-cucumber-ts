@@ -1,0 +1,147 @@
+{
+  "uid" : "db649e830038d5a2",
+  "name" : "Select and Add to Cart Ladies outerwears",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Select and Add to Cart Ladies outerwears",
+  "historyId" : "82e132e6a2da9fc1263d2e3109a46d83",
+  "time" : {
+    "start" : 1644240914871,
+    "stop" : 1644240922035,
+    "duration" : 7164
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When I select a random shirt",
+      "time" : {
+        "start" : 1644240914872,
+        "stop" : 1644240920587,
+        "duration" : 5715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view the details of the shirt",
+      "time" : {
+        "start" : 1644240920588,
+        "stop" : 1644240920675,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click Add To Cart",
+      "time" : {
+        "start" : 1644240920675,
+        "stop" : 1644240920769,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click View Cart",
+      "time" : {
+        "start" : 1644240920769,
+        "stop" : 1644240921932,
+        "duration" : 1163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view the added Tshirt",
+      "time" : {
+        "start" : 1644240921932,
+        "stop" : 1644240922034,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Select and Add to Cart Ladies outerwears"
+  }, {
+    "name" : "package",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db649e830038d5a2.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}

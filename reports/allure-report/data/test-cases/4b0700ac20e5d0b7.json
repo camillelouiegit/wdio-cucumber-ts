@@ -1,0 +1,117 @@
+{
+  "uid" : "4b0700ac20e5d0b7",
+  "name" : "Navigate to Shirt Sections",
+  "fullName" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop.Navigate to Shirt Sections",
+  "historyId" : "b1045f33183dde68abdd360e1b493e8",
+  "time" : {
+    "start" : 1644240909543,
+    "stop" : 1644240914871,
+    "duration" : 5328
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the home page \"https://shop.polymer-project.org/\"",
+      "time" : {
+        "start" : 1644240909545,
+        "stop" : 1644240909550,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I navigate to Men's Outerwear section",
+      "time" : {
+        "start" : 1644240909550,
+        "stop" : 1644240914816,
+        "duration" : 5266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should view all shirt List",
+      "time" : {
+        "start" : 1644240914816,
+        "stop" : 1644240914870,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "testClass",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to Shirt Sections"
+  }, {
+    "name" : "package",
+    "value" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4b0700ac20e5d0b7.json",
+  "parameterValues" : [ "chrome-98.0.4758.80" ]
+}
