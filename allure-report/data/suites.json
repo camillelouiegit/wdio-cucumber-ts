@@ -1,10 +1,11 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App",
     "children" : [ {
       "name" : "TC-001 Navigate to Sauce Demo Site",
-      "uid" : "7e1210640eb2aded",
+      "uid" : "30d18dd11214d08",
       "parentUid" : "557627dd8127ce6c263f8078508db8e7",
       "status" : "passed",
       "time" : {
@@ -21,7 +22,7 @@
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
       "name" : "TC-002 Add to Cart",
-      "uid" : "aaa56040f28e4810",
+      "uid" : "c9964b12a3a3596e",
       "parentUid" : "557627dd8127ce6c263f8078508db8e7",
       "status" : "passed",
       "time" : {
@@ -38,7 +39,7 @@
       "parameters" : [ "chrome-98.0.4758.80" ]
     }, {
       "name" : "TC-003 Checkout",
-      "uid" : "892f89a11fe77523",
+      "uid" : "763fccecab5a1626",
       "parentUid" : "557627dd8127ce6c263f8078508db8e7",
       "status" : "passed",
       "time" : {
@@ -53,8 +54,113 @@
       "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-98.0.4758.80" ]
+    }, {
+      "name" : "TC-001 Navigate to Sauce Demo Site",
+      "uid" : "3eff8833c24c7e3b",
+      "parentUid" : "557627dd8127ce6c263f8078508db8e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645577426329,
+        "stop" : 1645577429650,
+        "duration" : 3321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "TC-002 Add to Cart",
+      "uid" : "8831691e0d36b6e3",
+      "parentUid" : "557627dd8127ce6c263f8078508db8e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645577429650,
+        "stop" : 1645577430207,
+        "duration" : 557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
+    }, {
+      "name" : "TC-003 Checkout",
+      "uid" : "3b479ea4f93c67a",
+      "parentUid" : "557627dd8127ce6c263f8078508db8e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645577430208,
+        "stop" : 1645577430880,
+        "duration" : 672
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.109" ]
     } ],
     "uid" : "557627dd8127ce6c263f8078508db8e7"
-  } ],
-  "name" : "suites"
+  }, {
+    "name" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop",
+    "children" : [ {
+      "name" : "Navigate to Shirt Sections",
+      "uid" : "903fa127cb92a5f8",
+      "parentUid" : "c1421b23e9090ec19a33500d25377553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649393722602,
+        "stop" : 1649393725387,
+        "duration" : 2785
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Select and Add to Cart Ladies outerwears",
+      "uid" : "f4483dc3b30c63a2",
+      "parentUid" : "c1421b23e9090ec19a33500d25377553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649393725387,
+        "stop" : 1649393731552,
+        "duration" : 6165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Checkout and Place Order",
+      "uid" : "53fb1e0553bdffb1",
+      "parentUid" : "c1421b23e9090ec19a33500d25377553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649393731553,
+        "stop" : 1649393734981,
+        "duration" : 3428
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    } ],
+    "uid" : "c1421b23e9090ec19a33500d25377553"
+  } ]
 }

@@ -1,8 +1,19 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "557627dd8127ce6c263f8078508db8e7",
     "name" : "User is able to Login, Add to Cart, Checkout in Sauce Demo App",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "c1421b23e9090ec19a33500d25377553",
+    "name" : "User is able to Navigate, Add to shirt to Cart, and Checkout in the Polymer Shop",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

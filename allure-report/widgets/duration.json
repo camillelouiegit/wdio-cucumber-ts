@@ -1,5 +1,35 @@
 [ {
-  "uid" : "7e1210640eb2aded",
+  "uid" : "3eff8833c24c7e3b",
+  "name" : "TC-001 Navigate to Sauce Demo Site",
+  "time" : {
+    "start" : 1645577426329,
+    "stop" : 1645577429650,
+    "duration" : 3321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8831691e0d36b6e3",
+  "name" : "TC-002 Add to Cart",
+  "time" : {
+    "start" : 1645577429650,
+    "stop" : 1645577430207,
+    "duration" : 557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53fb1e0553bdffb1",
+  "name" : "Checkout and Place Order",
+  "time" : {
+    "start" : 1649393731553,
+    "stop" : 1649393734981,
+    "duration" : 3428
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30d18dd11214d08",
   "name" : "TC-001 Navigate to Sauce Demo Site",
   "time" : {
     "start" : 1644244915208,
@@ -9,7 +39,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "892f89a11fe77523",
+  "uid" : "763fccecab5a1626",
   "name" : "TC-003 Checkout",
   "time" : {
     "start" : 1644244917972,
@@ -19,12 +49,42 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "aaa56040f28e4810",
+  "uid" : "3b479ea4f93c67a",
+  "name" : "TC-003 Checkout",
+  "time" : {
+    "start" : 1645577430208,
+    "stop" : 1645577430880,
+    "duration" : 672
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9964b12a3a3596e",
   "name" : "TC-002 Add to Cart",
   "time" : {
     "start" : 1644244917374,
     "stop" : 1644244917972,
     "duration" : 598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "903fa127cb92a5f8",
+  "name" : "Navigate to Shirt Sections",
+  "time" : {
+    "start" : 1649393722602,
+    "stop" : 1649393725387,
+    "duration" : 2785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4483dc3b30c63a2",
+  "name" : "Select and Add to Cart Ladies outerwears",
+  "time" : {
+    "start" : 1649393725387,
+    "stop" : 1649393731552,
+    "duration" : 6165
   },
   "status" : "passed",
   "severity" : "normal"
